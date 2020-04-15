@@ -23,7 +23,7 @@ docker run mycustomimage:v1 python /opt/mac_address_check.py 44:38:39:ff:ef:57
 
 ```
 
-### Output
+### Sample Example
 
 ```sh
 $ docker run yourimage:v1 python /opt/mac_address_check.py 44:38:39:ff:ef:57
