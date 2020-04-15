@@ -10,7 +10,25 @@ Make sure that you have installed docker inorder to run the below code
 $ git clone https://github.com/shan5a6/pythonSimpleCurl.git
 $ cd pythonSimpleCurl
 $ docker build -t "yourimage" .
-$ docker run mycustomimage:v1 python /opt/mac_address_check.py 44:38:39:ff:ef:57
 ```
+
+### Testing
+```sh
+$ docker run yourimage:v1 python /opt/mac_address_check.py
+
+output:
+Please pass mac address for reference check below example
+********Example*********
+docker run mycustomimage:v1 python /opt/mac_address_check.py 44:38:39:ff:ef:57
+
+```
+
+### Output
+
+```sh
+$ docker run yourimage:v1 python /opt/mac_address_check.py 44:38:39:ff:ef:57
+
+output:
+Vendor name is "Cumulus Networks, Inc"
 ```
 
